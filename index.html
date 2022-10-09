@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Zone</title>
+    <!-- fontawesome CDN Link -->
+    <link rel="stylesheet" href="assets/webfonts/css/all.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- Bootstrap CSS  Link -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   
+  <!-- Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+    
+
+
+</head>
+<body>
+
+
+
+<!--Header Start-->
+ <header class="cursor-light ">
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Menu</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Our Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    
+               
+            </ul>
+            <!-- <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            <!-- <div> 
+                <span class="open_search"><i class="fas fa-search"></i> 
+                </span>
+            </div> -->
+            </div>
+        </div>
+    </nav>
+
+ </header>
+<!-- Banner Section start  -->
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/banner-1.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Delicious</h5>
+          <h1>The Beef Burger</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor eum nobis corporis in officiis iure eveniet ipsum, quae nesciunt nostrum veniam, commodi dolores facere accusamus odio. Reiciendis, saepe eaque.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner-2.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We use the world best ingredient</h5>
+          <h1>Delicious Food Zone</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt laborum voluptas cumque officiis perspiciatis laboriosam aliquid recusandae, iste dolores asperiores dolor in tenetur odit impedit aspernatur consectetur totam? Assumenda.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner-3.jpg" class="d-block w-100 banner-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We care for your</h5>
+          <h1>Health & Nutrition</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloribus ut maxime quae architecto consequuntur nihil voluptatibus fuga. Voluptates nam corrupti accusantium corporis alias earum ipsa exercitationem beatae molestiae voluptatum.</p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Banner Section end -->
+
+  <!-- About Section Start  -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="content">
+          <span class="about-bg"  style="backface-visibility: hidden;"></span>
+          <h2>About Us</h2>
+          <span class="about-bg"  style="backface-visibility: hidden;"></span>
+        </div>
+      </div>
+        <!-- card flip-flop -->
+        <div class="row flip-row">
+
+           <!-- <div class="flip-row"> -->
+            <div class="col-lg-4 col-md-4 col-sm-6 column">
+
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2>We are food lovers </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit impedit explicabo rerum tenetur sit, ea maiores dolorem fugiat, facilis veritatis non nobis consequatur, porro accusantium.</p>
+                      </div>
+                      <div class="flip-box-back">
+                        <h2>We are food lovers</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit impedit explicabo rerum tenetur sit, ea maiores dolorem fugiat, facilis veritatis non nobis consequatur, porro accusantium.</p>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6  column">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front front-1">
+                        <h2>Diversity in food </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit impedit explicabo rerum tenetur sit, ea maiores dolorem fugiat, facilis veritatis non nobis consequatur, porro accusantium.</p>
+                      </div>
+                      <div class="flip-box-back back-1">
+                        <h2>Diversity in food</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit impedit explicabo rerum tenetur sit, ea maiores dolorem fugiat, facilis veritatis non nobis consequatur, porro accusantium.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6  column">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front front-2">
+                        <h2>Opening Hours</h2>
+                        <div>Monday - Friday <span class="time-bg" style="backface-visibility: hidden;"></span> 08.00  - 08.00 </div>
+                        <div>Monday - Friday <span class="time-bg" style="backface-visibility: hidden;"></span> 08.00 - 08.00 </div>
+                        <div>Monday - Friday <span class="time-bg" style="backface-visibility: hidden;"></span> 08.00 - 08.00</div>
+                        <div>Monday - Friday <span class="time-bg" style="backface-visibility: hidden;"></span> 08.00 - 08.00  </div>
+                      </div>
+                      <div class="flip-box-back back-2">
+                        <h2>Opening Hours</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit impedit explicabo rerum tenetur sit, ea maiores dolorem fugiat, facilis veritatis non nobis consequatur, porro accusantium.</p>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+           <!-- </div> -->
+        
+        </div>
+        <!-- about text -->
+        <div class="row ab-text">
+          <div class="content-text">
+           <span>Good And Healthy Life</span>
+           <h2>We Served The Best <span class="food">Food</span> In Town</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in eveniet neque omnis officiis, doloremque quidem tenetur adipisci possimus unde quo velit, amet minima excepturi porro nisi voluptatem quaerat. Temporibus mollitia deleniti ullam excepturi enim officia minus nesciunt eum voluptas.</p>
+          </div>
+        </div>
+        <!-- Progress section -->
+        <div class="row progress-tab">
+
+          <div class="col-md-6">
+            <div class="progress-1">
+              <span>Fresh & Organic</span>
+                <div class="progress">
+                    <div class="progress-bar  p-1" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">90%
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-1">
+              <span>Easy Reservation</span>
+                <div class="progress">
+                    <div class="progress-bar  p-2" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">85%
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-1">
+              <span>Quality Cuisine</span>
+                <div class="progress">
+                    <div class="progress-bar  p-1" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">90%
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="progress-1">
+              <span>Easy Reservation</span>
+                <div class="progress">
+                    <div class="progress-bar  p-2" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">85%
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-1">
+              <span>Quality Cuisine</span>
+                <div class="progress">
+                    <div class="progress-bar  p-1" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">90%
+                    </div>
+                </div>
+            </div>
+          </div>
+
+         
+        </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+
+  <!-- Reservation Section Start  -->
+<section id="reservation" class="reservation">
+  <div class="container">
+    <div class="row reservation-row">
+
+      <div class="res-row">
+        <div>
+          <div class="reservation-text">
+            <h2>Book Your Table</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iure inventore, error optio quod voluptatibus animi fugiat fugit reiciendis itaque!</p>
+          </div>
+          <form action="" class="row">
+
+            <div class="col-md-6 mb-4">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="First name">
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <input type="email" class="form-control" placeholder="Type your e-mail" aria-label="email">
+            </div>
+
+            <div class="col-md-6">
+              <input type="number" class="form-control" placeholder="Type your phone number" aria-label="Number">
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <input type="date" class="form-control" placeholder="Reservation Date" aria-label="">
+            </div>
+
+            <div class="col-md-6">
+              <select class="form-select" aria-label="Default select example" aria-placeholder="Total">
+                <option selected>Total People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+            </div>
+
+            <div class="col-md-12  mt-3">
+              <button class="btn primary" type="submit">Submit</button>
+            </div>
+        </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Reservation Section End ----->
+
+  <!-- Specialties Section Start  -->
+  <section class="specialties">
+    <div class="container">
+
+      <div class="row sp-row">
+        <div class="sp-text">
+          <span>Good And Healthy Life</span>
+          <h2>Our Specialties</h2>
+         </div>
+      </div>
+
+      <div class="row feature-row">
+
+        <div class="col-md-4">
+
+              <div class="feature">
+                <span class="icon">
+                  <i class="fa-solid fa-utensils"></i>
+                </span>
+
+                <div class="card-txt">
+                  <h3>Cutlery</h3>
+                  <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+                </div>
+              </div>
+
+          </div>
+        
+
+        <div class="col-md-4">
+          <div class="feature">
+            <span class="icon-2 icon">
+              <i class="fa-solid fa-cake-candles"></i>
+            </span>
+
+            <div class="card-txt">
+              <h3>Cake</h3>
+              <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="feature">
+            <span class="icon">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </span>
+
+            <div class="card-txt">
+              <h3>Service</h3>
+              <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+
+          <div class="feature">
+            <span class="icon icon-2 ">
+              <i class="fa-solid fa-utensils"></i>
+            </span>
+
+            <div class="card-txt">
+              <h3>Cutlery</h3>
+              <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+            </div>
+          </div>
+
+      </div>
+    
+
+    <div class="col-md-4">
+      <div class="feature">
+        <span class="icon">
+          <i class="fa-solid fa-cake-candles"></i>
+        </span>
+
+        <div class="card-txt">
+          <h3>Cake</h3>
+          <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="feature">
+        <span class="icon icon-2 ">
+          <i class="fa-solid fa-bell-concierge"></i>
+        </span>
+
+        <div class="card-txt">
+          <h3>Service</h3>
+          <p>Phasellus eu scelerisque ligula. Pellentesque sollicitudin quis orci laoreet vehicula.</p>
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Specialties Section End -->
+
+
+   <!-- Counter Section Start  -->
+<section class="cnt">
+  <div class="container ">
+    <div class="row">
+      <div class="counter-up">
+        <div class="content">
+          <div class="box">
+            <div class="icon"><i class="fas fa-users"></i></div>
+            <div class="counter">1538</div>
+            <div class="text">Happy Clients</div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-bowl-rice"></i></div>
+            <div class="counter">1006</div>
+            <div class="text">Cooked Items</div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-truck"></i></div>
+            <div class="counter">2115</div>
+            <div class="text">Food Delivered</div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-mug-hot"></i></div>
+            <div class="counter">179</div>
+            <div class="text">Cups Of Coffee</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Counter Section End -->
+
+     <!-- Menu Section Start  -->
+<section>
+  <div class="container main-menu">
+    <div class="row">
+      <div class="menu-txt">
+        <h2>Our Menu</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt fugit accusamus alias voluptates veniam laborum dolores autem possimus aut a.</p>
+      </div>
+    </div>
+
+    <div class="row"> 
+     <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'all')">All</button>
+      <button class="tablinks" onclick="openCity(event, 'breakfast')">Breakfast</button>
+      <button class="tablinks" onclick="openCity(event, 'lunch')">Lunch</button>
+      <button class="tablinks" onclick="openCity(event, 'dinner')">Dinner</button>
+      <button class="tablinks" onclick="openCity(event, 'desserts')">Desserts</button>
+     </div>
+
+     <div class="tab-image p-tab" id="all">
+      <div class="gallary">
+        <img  src="assets/img/biriyani.jpg" alt="">
+        <img src="assets/img/burger-1.jpg" alt="">
+        <img src="assets/img/fry.jpg" alt="">
+        <img  src="assets/img/biriyani.jpg" alt="">
+        <img src="assets/img/burger-1.jpg" alt="">
+        <img src="assets/img/fry-1.jpg" alt="">
+      </div>
+     </div>
+
+     <div class="tab-image" id="breakfast">
+      <div class="gallary">
+        <img src="assets/img/fry-1.jpg" alt="">
+      </div>
+     </div>
+
+     <div class="tab-image" id="lunch">
+      <div class="gallary">
+        <img src="assets/img/burger-1.jpg" alt="">
+      </div>
+     </div>
+
+     <div class="tab-image" id="dinner">
+      <div class="gallary">
+        <img  src="assets/img/biriyani.jpg" alt="">
+      </div>
+     </div>
+
+     <div class="tab-image" id="desserts">
+      <div class="gallary">
+        <img src="assets/img/fry-1.jpg" alt="">
+      </div>
+     </div>
+      
+    </div>
+
+  </div>
+</section>
+
+ <!-- Happy Customer Section Start  -->
+ <section class="happy-customer">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+
+      <div class="col-12 text-center pt-5 pb-3">
+        <h2 class="fw-bold fs-1">Happy Customer</h2>
+        <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti cumque dolorum temporibus neque, ducimus animi.</p>
+      </div>
+    </div>
+
+    <div class="row slide-row">
+
+      <!-- <div class="test-slide"> -->
+
+        <div class="col-lg-4 col-md-4 col-sm-6 mt-3">
+          <div class="mySlides">
+            <span class="pb-3 fs-1"><i class="fa-solid fa-quote-left"></i></span>
+            <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eligendi nulla, Eum eligendi nulla, iure reiciendis temporibus consequuntur!</p>
+            <img src="assets/img/testimonial-1.png" alt="" class="pt-4 pb-3">
+            <h4 class="fs-5">David Gover</h4>
+            <span class="fw-bold fs-6">NewYork , USA</span>
+          </div>
+
+        </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6  mt-3">
+        <div class="mySlides">
+          <span class="pb-3 fs-1"><i class="fa-solid fa-quote-left"></i></span>
+          <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eligendi nulla, Eum eligendi nulla, iure reiciendis temporibus consequuntur!</p>
+          <img src="assets/img/testimonial-2.png" alt="" class="pt-4 pb-3">
+          <h4 class="fs-5">Taniya Bristi</h4>
+          <span class="fw-bold fs-6">Jpan</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-6 mt-3">
+        <div class="mySlides">
+          <span class="pb-3 fs-1"><i class="fa-solid fa-quote-left"></i></span>
+          <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eligendi nulla, Eum eligendi nulla, iure reiciendis temporibus consequuntur!</p>
+          <img src="assets/img/testimonial-3.png" alt="" class="pt-4 pb-3">
+          <h4 class="fs-5">Kabila</h4>
+          <span class="fw-bold fs-6">Dhaka , BD</span>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </div>
+  </div>
+ </section>
+
+  <!-- Map Section Start  -->
+  <section class="map">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-7">
+
+          <iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=tangail%20new%20bas%20stand,%20dhaka%20,%20bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+        </div>
+
+        <div class="col-lg-5 col-md-5 map-txt">
+          <span><p>Lorem Ipsum Dolor Sit Amet Consectetur</p></span>
+          <h2>Food Zone Restaurant</h2>
+          <span><p>23 Stree New York City , United States Of America.</p></span>
+          <div class="phone pt-4">
+            <span><i class="fa-solid fa-phone"></i> <a href="tel:001 01085379709">001 01085379709</a></span>
+            <span><i class="fa-solid fa-phone"></i> <a href="tel:001 63165370895">001 63165370895</a></span>
+          </div>
+          <div class="email pt-4">
+            <span><i class="fa-solid fa-envelope"></i> <a href="mailto:admin@website.com">admin@website.com</a></span>
+            <span><i class="fa-solid fa-envelope"></i> <a href="mailto:email@website.com">email@website.com</a></span>
+          </div>
+          <span ><p class="pt-3">Mon-Fri : 9am to 6pm</p></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer Section Start  -->
+<section class="main-footer">
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS  Link -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/webfonts/js/all.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
